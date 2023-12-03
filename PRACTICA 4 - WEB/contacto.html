@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link
+        href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAADGWAAAAUAAAPbkAABlQAABJ3AAAJXMAAFX/AA4ODgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAEBBAgAAAAAAAAAAAgDBQMBAQMFAwgAAAAAAAQFAwAAAAAABAMFBAAAAAgFAQAAAAAAAAAABgUIAAADAwAAAQAAAAAABAADAwAIBQAABgcGAAAABQUEAAUIBgMAAAABBQgABAUCAAADBgEFAAAACAUDAAUDAAAAAQEBBQAAAAAGBQMFCAAAAAEBBgUAAAAACAUHAwAAAAADBggHBAAAAAABBwgAAAACBQgAAwcIAAAABwMAAAAAAwMAAAgHBQAAAwcCAAAABgUIAAAABAUFBAIIAAAEAwUEAAAAAAAIAwUDAQEDBQMIAAAAAAAAAAAIBgEBBAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+        rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/stylescontacto.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <title>Práctica 4 - Lenguaje de Marcas</title>
+</head>
+
+<body>
+    <header>
+        <div id="nombrecabecera">
+            <h2>Half-Life - La historia </h2>
+        </div>
+    </header>
+    <nav>
+        <div class="botones">
+            <a href="index.html">Inicio</a>
+        </div>
+        <div class="botones">
+            <a href="historia.html">Historia</a>
+        </div>
+        <div class="botones">
+            <a href="personajes.html">Personajes</a>
+        </div>
+        <div class="botones">
+            <a href="noticias.html">Noticias</a>
+        </div>
+        <div class="botones">
+            <a href="contacto.html">Contacto</a>
+        </div>
+    </nav>
+
+    <section class="principal">
+        <div class="imagenarticulo">
+            <img src="./images/portadacontacto.png">
+        </div>
+
+        <article class="contenido-centro">
+
+
+            <div class="texto">
+                <h1>Participa en la encuesta:</h1>
+                <form>
+                    <p>¿Cuál es tu juego favorito de la saga?</p>
+                    <input type="checkbox" id="HL" name="HL" value="HL">
+                    <label for="game1">Half-Life</label>
+                    <input type="checkbox" id="HLOF" name="HLOF" value="HLOF">
+                    <label for="game2">Half-Life: Opposing force</label>
+                    <input type="checkbox" id="HLBS" name="HLBS" value="HLBS">
+                    <label for="game3">Half-Life: Blue Shift</label>
+                    <input type="checkbox" id="HL2" name="HL2" value="HL2">
+                    <label for="game4">Half-Life 2</label>
+                    <input type="checkbox" id="HLA" name="HLA" value="HLA">
+                    <label for="game5">Half-Life Alyx</label><br>
+                    <label for="game">¿Cuál es tu personaje de Half-Life favorito?</label>
+                    <select name="personaje" id="game">
+                        <option value="default">Elige una opción</option>
+                        <option value="GF">Gordon Freeman</option>
+                        <option value="GM">G-Man</option>
+                        <option value="AS">Adrian Sheppard</option>
+                    </select><br>
+                    <label for="HL3">¿Crees que saldrá algún día Half-Life 3?</label>
+                    <select name="trab" id="trab">
+                        <option value="default">Elige una opción</option>
+                        <option value="si">Si, al final sadrá.</option>
+                        <option value="no">No, pero no pierdo la esperanza.</option>
+                        <option value="no2">No, a Valve ya se le olvidó.</option>
+                    </select><br>
+                    <label for="armas">¿Cuál es tu arma favorita del Half-Life?</label>
+                    <select name="armas" id="armas">
+                        <option value="default">Elige una opción</option>
+                        <option value="palanca">La palanca, es icónica!!</option>
+                        <option value="escopeta">La escopeta.</option>
+                        <option value="fusilasalto">El fusil de asalto.</option>
+                        <option value="pistolagravedad">La pistola de gravedad.</option>
+                    </select><br>
+                    <label for="afic">¿Qué te ha parecido la página?</label>
+                    <select name="aficion2" id="afic">
+                        <option value="default">Elige una opción</option>
+                        <option value="mola">Me encanta!!</option>
+                        <option value="normal">Está bien, pero podrías mejorarla.</option>
+                        <option value="regular">Es mas bien regulera.</option>
+                        <option value="kaka">Mejor dedícate a otra cosa...</option>
+                    </select><br><br>
+                    <textarea name="comentarios" rows="5" cols="30">Escribe aquí tus comentarios</textarea><br><input
+                        type="checkbox" id="lang1" name="lang" value="Java">
+                    <label for="conds" required>Acepto enviar mis datos</label><br>
+                    <input type="submit" value=" Enviar "> <input type="reset" value=" Restablecer ">
+                </form>
+            </div>
+
+            </div>
+
+
+            <div class="texto">
+                <h1>Suscríbete a mi página:</h1>
+                <form action="/action_page.php">
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" id="fname" name="fname" value="Escribe aquí tu nombre"
+                        pattern="[A-Za-zÀ-ÖØ-öø-ÿ'_-ñÑ ]+" title="Ingresa un nombre válido." required><br>
+                    <label for="lname">Apellidos:</label><br>
+                    <input type="text" id="lname" name="lname" value="Escribe tus apellidos"
+                        pattern="[A-Za-zÀ-ÖØ-öø-ÿ'_-ñÑ ]+" title="Datos no válidos." required><br>
+                    <label for="mail">Correo electrónico:</label><br>
+                    <input type="email" id="mail" name="mail" value="Escribe aquí tu mail"
+                        pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                        title="Ingresa una dirección de correo electrónico válida." required><br>
+                    <label for="telefono">Teléfono de contacto:</label><br>
+                    <input type="text" id="phone" name="phone" value="Escribe aquí tu número" pattern="[0-9]{9}"
+                        required><br>
+                    <label for="fnac">Fecha de nacimiento:</label><br>
+                    <input type="date" id="fnac" name="fnac" min="1900-01-01" max="2023-12-31" required /><br><br>
+                    <input type="submit" value=" Enviar "> <input type="reset" value=" Restablecer ">
+                </form>
+            </div>
+
+
+
+        </article>
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <footer>
+        <h3>Tomás Ruiz González</h3>
+    </footer>
+</body>
+
+</html>
